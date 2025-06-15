@@ -8,7 +8,7 @@ Welcome to my personal website built with **React.js**, styled using **Tailwind 
 
 ## 📸 Preview
 
-![Portfolio Preview](srcassets/preview.png)
+![Portfolio Preview](src/assets/preview.png)
 
 ---
 
