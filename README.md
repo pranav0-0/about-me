@@ -1,6 +1,6 @@
-# 🚀 Portfolio Website
+# 🚀 Website
 
-Welcome to my personal portfolio website built with **React.js**, styled using **Tailwind CSS**, and deployed via **GitHub Pages**. This site showcases my projects, skills, and contact information in a clean, responsive design.
+Welcome to my personal website built with **React.js**, styled using **Tailwind CSS**, and deployed via **GitHub Pages**. This site showcases my projects, skills, and contact information in a clean, responsive design.
 
 🌐 **Live Demo**: [View Portfolio](https://pranav0-0.github.io/about-me)
 
@@ -8,7 +8,7 @@ Welcome to my personal portfolio website built with **React.js**, styled using *
 
 ## 📸 Preview
 
-![Portfolio Preview](src/assets/preview.png)
+![Portfolio Preview](srcassets/preview.png)
 
 ---
 
