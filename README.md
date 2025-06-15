@@ -8,7 +8,7 @@ Welcome to my personal portfolio website built with **React.js**, styled using *
 
 ## 📸 Preview
 
-![Portfolio Preview](./assets/preview.png)
+![Portfolio Preview](src/assets/preview.png)
 
 ---
 
