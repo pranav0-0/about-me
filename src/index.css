@@ -3,46 +3,47 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'DigicoldTypeface';
-  src: url('./assets/fonts/DigicoldTypefaceRegular.woff2') format('woff'),
-       url('./assets/fonts/DigicoldTypefaceRegular.woff') format('woff2');
-  font-weight: 830; /* changed weight */
-  font-style: normal;
+    font-family: "DigicoldTypeface";
+    src:
+        url("./assets/fonts/DigicoldTypefaceRegular.woff2") format("woff"),
+        url("./assets/fonts/DigicoldTypefaceRegular.woff") format("woff2");
+    font-weight: 830; /* changed weight */
+    font-style: normal;
 }
 
 body {
-  margin: 0;
-  font-family: 'DigicoldTypeface', sans-serif;
-  /* -webkit-font-smoothing: antialiased; */
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: "DigicoldTypeface", sans-serif;
+    /* -webkit-font-smoothing: antialiased; */
+    -moz-osx-font-smoothing: grayscale;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f0f0f0;
+    background: #f0f0f0;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #e10600; /* accent color */
+    background: #e10600; /* accent color */
 }
 
 .scroll-snap {
-  scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory;
 }
 
 .scroll-snap section {
-  scroll-snap-align: start;
-  min-height: 100vh;
+    scroll-snap-align: start;
+    min-height: 100vh;
 }
 @media (orientation: portrait) {
-  .landscape-only {
-    display: none;
-  }
+    .landscape-only {
+        display: none;
+    }
 }
